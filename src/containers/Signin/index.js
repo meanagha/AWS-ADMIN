@@ -35,7 +35,7 @@ const Signin = (props) => {
     }
 
     if(auth.authenticate){
-        return <Redirect to={`/home`} />
+        return <Redirect to={`/`} />
     }
 
     return (
