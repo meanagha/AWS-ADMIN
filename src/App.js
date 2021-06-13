@@ -35,7 +35,7 @@ function App() {
   return (
     <div className="App">
       <Switch>
-        <PrivateRoute path="/" exact component={Home} />
+        <PrivateRoute path="/home" component={Home} />
         <PrivateRoute path="/page" component={NewPage} />
         <PrivateRoute path="/category" component={Category} />
         <PrivateRoute path="/products" component={Products} />
@@ -43,7 +43,7 @@ function App() {
         
 
 
-        <Route path="/signin" component={Signin} />
+        <Route path="/" component={Signin} />
         <Route path="/signup" component={Signup} />
       </Switch>
     </div>
